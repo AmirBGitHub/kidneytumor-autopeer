@@ -1,0 +1,24 @@
+INFO:niftynet:2019-01-16 09:26:54,213: Import [SegmentationApplication] from c:\users\am43064\appdata\local\programs\python\python36\lib\site-packages\niftynet\application\segmentation_application.py.
+INFO:niftynet:2019-01-16 09:26:54,213: starting segmentation application
+INFO:niftynet:2019-01-16 09:26:54,213: `csv_file = ` not found, writing to "C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\ct.csv" instead.
+INFO:niftynet:2019-01-16 09:26:54,213: Overwriting existing: "C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\ct.csv".
+INFO:niftynet:2019-01-16 09:26:54,213: [ct] search file folders, writing csv file C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\ct.csv
+INFO:niftynet:2019-01-16 09:26:54,229: `csv_file = ` not found, writing to "C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\label.csv" instead.
+INFO:niftynet:2019-01-16 09:26:54,229: Overwriting existing: "C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\label.csv".
+INFO:niftynet:2019-01-16 09:26:54,229: [label] search file folders, writing csv file C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\label.csv
+INFO:niftynet:2019-01-16 09:26:54,244: [inferred] using existing csv file C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\segmentation_output\inferred.csv, skipped filenames search
+WARNING:niftynet:2019-01-16 09:26:54,244: Loading from existing partitioning file C:\Users\AM43064\niftynet\models\dense_vnet_abdominal_ct\dataset_split.csv, ignoring partitioning ratios.
+INFO:niftynet:2019-01-16 09:26:54,260: 
+
+Number of subjects 100, input section names: ['subject_id', 'ct', 'label', 'inferred']
+Dataset partitioning:
+-- training 60 cases (60.00%),
+-- validation 20 cases (20.00%),
+-- inference 20 cases (20.00%).
+
+INFO:niftynet:2019-01-16 09:26:54,572: Image reader: loading 20 subjects from sections ('ct',) as input [image]
+INFO:niftynet:2019-01-16 09:26:54,572: Image reader: loading 20 subjects from sections ('label',) as input [label]
+INFO:niftynet:2019-01-16 09:26:54,572: Image reader: loading 20 subjects from sections ('inferred',) as input [inferred]
+INFO:niftynet:2019-01-16 09:26:54,572: normalisation histogram reference models ready for image:('ct',)
+INFO:niftynet:2019-01-16 09:33:38,618: Cleaning up...
+INFO:niftynet:2019-01-16 09:33:38,618: SegmentationApplication stopped (time in second 404.01).

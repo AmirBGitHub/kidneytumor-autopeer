@@ -1,0 +1,3 @@
+net_run train -a niftynet.application.segmentation_application.SegmentationApplication -c C:\Users\AM43064\niftynet\extensions\dense_vnet_abdominal_ct\config.ini
+net_run inference -a niftynet.application.segmentation_application.SegmentationApplication -c C:\Users\AM43064\niftynet\extensions\dense_vnet_abdominal_ct\config.ini
+net_run evaluation -a niftynet.application.segmentation_application.SegmentationApplication -c C:\Users\AM43064\niftynet\extensions\dense_vnet_abdominal_ct\config.ini

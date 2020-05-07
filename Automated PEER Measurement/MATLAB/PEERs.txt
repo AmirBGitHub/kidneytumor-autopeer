@@ -1,0 +1,23 @@
+PEERs
+Subj01: 0.25
+Subj02: 0.38
+Subj03: 0.38
+Subj04: 0.29
+Subj05: 0.28
+Subj06: 0.50
+Subj07: 0.56
+Subj08: 0.77
+Subj09: 0.90
+Subj10: 0.77
+Subj11: 0.77
+Subj12: 0.96
+Subj13: 0.70
+Subj14: 0.28
+Subj15: 0.32
+Subj16: 0.45
+Subj17: 0.50
+Subj18: 0.24
+Subj19: 0.61
+Subj20: 0.80
+
+ 
